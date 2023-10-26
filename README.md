@@ -25,16 +25,16 @@
    - Selected the XGboost as the best-performing model.
 
 5. **Hyperparameter Tuning**
-- Utilized hyperparameter tuning techniques like GridSearchCV and RandomizedSearchCV to search for optimal hyperparameters.
-- The goal was to find the best combination of hyperparameters to improve model performance.
+   - Utilized hyperparameter tuning techniques like GridSearchCV and RandomizedSearchCV to search for optimal hyperparameters.
+   - The goal was to find the best combination of hyperparameters to improve model performance.
 
 6. **Feature Importance**
-- Conducted feature importance analysis to identify which survey questions had the most significant impact on predictions.
-- Gained insights into which survey responses played a crucial role in determining whether someone is "happy" or not.
+   - Conducted feature importance analysis to identify which survey questions had the most significant impact on predictions.
+   - Gained insights into which survey responses played a crucial role in determining whether someone is "happy" or not.
 
 7. **Reporting and Results**
-- Reported the best hyperparameters and corresponding accuracy for each model post-hyperparameter tuning.
-- Presented the results of different models, including their accuracy percentages, for clear comparison.
+   - Reported the best hyperparameters and corresponding accuracy for each model post-hyperparameter tuning.
+   - Presented the results of different models, including their accuracy percentages, for clear comparison.
   
 ## Results
 
