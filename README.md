@@ -15,22 +15,30 @@
 
 ## Approach
 
-1. **Data Preprocessing**:
-   - Loaded the dataset.
-   - Split the data into training and validation sets.
+1. **Data Exploration**
    
-2. **Model Training**:
-   - Trained multiple models, including Random Forest, XGBoost, and Decision Tree classifiers.
+2. **Data Preprocessing**:
+   
+4. **Model Training**:
+   - Trained multiple models, including Logistic regression, XGBoost, and KNN.
    - Evaluated models based on their accuracy on the validation set.
-   - Selected the Decision Tree classifier as the best-performing model.
-   
-3. **Feature Importance**:
-   - Utilized the trained Decision Tree model to determine the importance of each feature in prediction.
-   - Used Recursive Feature Elimination (RFE) to identify the most influential features.
+   - Selected the XGboost as the best-performing model.
 
+5. **Hyperparameter Tuning**
+- Utilized hyperparameter tuning techniques like GridSearchCV and RandomizedSearchCV to search for optimal hyperparameters.
+- The goal was to find the best combination of hyperparameters to improve model performance.
+
+6. **Feature Importance**
+- Conducted feature importance analysis to identify which survey questions had the most significant impact on predictions.
+- Gained insights into which survey responses played a crucial role in determining whether someone is "happy" or not.
+
+7. **Reporting and Results**
+- Reported the best hyperparameters and corresponding accuracy for each model post-hyperparameter tuning.
+- Presented the results of different models, including their accuracy percentages, for clear comparison.
+  
 ## Results
 
-- The Decision Tree model achieved an accuracy of over 73% on the validation set.
+- The XGboost w/tuning achieved an accuracy of over 70% on the validation set.
 - Feature importance analysis revealed the most critical questions in determining the outcome.
 
 ## Bonuses:
